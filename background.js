@@ -18,8 +18,8 @@ chrome.browserAction.onClicked.addListener(function() {
     var newUrl = currentUrl.substring(0, pos);
     console.log("New URL: " + newUrl);
 
-    chrome.tabs.create({
-      console.log("Going to new URL...")
+    console.log("Going to new URL...");
+    chrome.tabs.update({
       "url": newUrl
     });
   });
