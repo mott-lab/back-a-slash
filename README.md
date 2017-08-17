@@ -9,4 +9,8 @@ This utility may be useful when exploring websites and could save a couple keyst
 ## Keyboard Shortcuts
 
 The user can use **Ctrl-Up** (**Command-Up** on a Mac) to use the extension as defined.
-To open the parent directory in a new tab, the user can use **Ctrl-Shift-Up** (**Command-Shift-Up** on a Mac). 
+To open the parent directory in a new tab, the user can use **Ctrl-Shift-Up** (**Command-Shift-Up** on a Mac).
+
+### Acknowledgements
+
+Thanks [magIcons 11](https://www.iconfinder.com/magicons) for the neat icons.
