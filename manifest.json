@@ -8,9 +8,29 @@
     "scripts": ["background.js"]
   },
 
-  "permissions": ["tabs"],
+  "permissions": [
+    "tabs"
+  ],
+
   "browser_action": {
     "default_icon": "icon.png",
     "default_title": "Up one level."
+  },
+
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Up",
+        "mac": "Command+Up"
+      },
+      "description": "Go up one level."
+    },
+    "back-a-slash-new-tab":{
+      "suggested_key": {
+        "windows": "Ctrl+Shift+Up",
+        "mac": "Command+Shift+Up"
+      },
+      "description": "Go up one level and open in new tab."
+    }
   }
 }
